@@ -81,6 +81,7 @@ O servidor estará disponível em http://localhost:3000.
     "author": "Autor da notícia"
   }
 
+---
 
 ### Atualizar uma notícia existente
 
@@ -97,7 +98,7 @@ O servidor estará disponível em http://localhost:3000.
     "author": "Novo autor"
   }
 
-
+---
 
   ### Deletar uma notícia 
 
