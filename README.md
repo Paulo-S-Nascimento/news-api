@@ -36,22 +36,16 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
 
 ## Abra a pasta
 
-### Instale as dependências:
-
-```bash
+Instale as dependências:
 npm install
 
-### Compile o projeto:
-
-```bash
+Compile o projeto:
 npm run build
 
-### inicie o servidor:
-
-```bash
+inicie o servidor:
 npm start
 
-# O servidor estará disponível em http://localhost:3000.
+O servidor estará disponível em http://localhost:3000.
 
 
  
