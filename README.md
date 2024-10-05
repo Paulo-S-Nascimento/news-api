@@ -36,13 +36,16 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
 
 ## Abra a pasta
 
-Instale as dependências:
+2. **Instale as dependências**:
+ ```bash
 npm install
 
-Compile o projeto:
+3. **Compile o projeto**:
+ ```bash
 npm run build
 
-inicie o servidor:
+4.  **inicie o servidor**:
+ ```bash
 npm start
 
 O servidor estará disponível em http://localhost:3000.
@@ -108,4 +111,17 @@ O servidor estará disponível em http://localhost:3000.
 - **Parâmetros**:
   - `id`: O ID da notícia.
 
+ ---
+
+# Documentação Postman
+
+Fornece exemplos de requisições para os endpoints da News API. Abaixo estão descritos os métodos e suas respectivas URLs, parâmetros e exemplos de corpo da requisição.
+
+## Coleção no Postman
+
+Você pode acessar a coleção completa da API no Postman através deste link:
+
+[![Postman Collection](https://run.pstmn.io/button.svg)](https://www.postman.com/flight-candidate-50490402/ca4f632b-c020-4fb8-a347-3fb8060222b5/collection/vevu2x2/news-api)
+
+---
  
