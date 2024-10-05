@@ -98,7 +98,8 @@ O servidor estará disponível em http://localhost:3000.
   }
 
 
-  ### Deletar uma notícia
+
+  ### Deletar uma notícia 
 
 - **Método**: `DELETE`
 - **URL**: `/news/:id`
