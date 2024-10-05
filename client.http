@@ -1,0 +1,15 @@
+@baseUrl = http://localhost:8000/api/v1
+
+
+GET {{baseUrl}}/news
+
+POST {{baseUrl}}/news
+Content-Type: application/json
+
+{
+    "title": "news1",
+    "content": "content1",
+    "author": "author1"
+}
+
+
