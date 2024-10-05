@@ -34,17 +34,24 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
    - git clone https://github.com/Paulo-S-Nascimento/news-api.git
 
 ## Abra a pasta do projeto:
+- cd caminho/para/a/pasta
+
 
 ## Instale as dependências:
 - npm install
 
+
 ## Compile o projeto:
 - npm run build
+  
 
 ## inicie o servidor:
 - npm start
+  
 
 **O servidor estará disponível em http://localhost:3000.**
+
+
 
 
 ## Endpoints
