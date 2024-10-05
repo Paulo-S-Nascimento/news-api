@@ -29,26 +29,22 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
 - **Node.js** (versão >= 16.0.0)
 - **npm** ou **yarn**
 
-### Passo a Passo
+## Passo a Passo
 1. **Clone este repositório**:
-   ```bash
-   git clone https://github.com/Paulo-S-Nascimento/news-api.git
+   - git clone https://github.com/Paulo-S-Nascimento/news-api.git
 
 ## Abra a pasta do projeto:
 
-# Instale as dependências:
- ```bash
-npm install
+## Instale as dependências:
+- npm install
 
-# Compile o projeto:
- ```bash
-npm run build
+## Compile o projeto:
+- npm run build
 
-# inicie o servidor:
- ```bash
-npm start
+## inicie o servidor:
+- npm start
 
-O servidor estará disponível em http://localhost:3000.
+**O servidor estará disponível em http://localhost:3000.**
 
 
 ## Endpoints
