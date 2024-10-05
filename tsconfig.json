@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-      "types": ["node", "express", "uuid", "dotenv"],
       "baseUrl": "./src",
       "paths": {
         "models/*": ["models/*"],
