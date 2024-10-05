@@ -48,4 +48,61 @@ npm start
 O servidor estará disponível em http://localhost:3000.
 
 
+## Endpoints
+
+### Listar todas as notícias
+
+- **Método**: `GET`
+- **URL**: `/news`
+- **Descrição**: Retorna uma lista de todas as notícias.
+
+---
+
+### Obter detalhes de uma notícia
+
+- **Método**: `GET`
+- **URL**: `/news/:id`
+- **Descrição**: Retorna os detalhes de uma notícia específica.
+- **Parâmetros**:
+  - `id`: O ID da notícia.
+
+---
+
+### Criar uma nova notícia
+
+- **Método**: `POST`
+- **URL**: `/news`
+- **Descrição**: Cria uma nova notícia.
+- **Corpo da Requisição**:
+  ```json
+  {
+    "title": "Título da notícia",
+    "content": "Conteúdo da notícia",
+    "author": "Autor da notícia"
+  }
+
+
+### Atualizar uma notícia existente
+
+- **Método**: `PUT`
+- **URL**: `/news/:id`
+- **Descrição**: Atualiza uma notícia existente.
+- **Parâmetros**:
+  - `id`: O ID da notícia.
+- **Corpo da Requisição**:
+  ```json
+  {
+    "title": "Novo título",
+    "content": "Novo conteúdo",
+    "author": "Novo autor"
+  }
+
+  ### Deletar uma notícia
+
+- **Método**: `DELETE`
+- **URL**: `/news/:id`
+- **Descrição**: Deleta uma notícia.
+- **Parâmetros**:
+  - `id`: O ID da notícia.
+
  
