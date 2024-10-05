@@ -34,17 +34,17 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
    ```bash
    git clone https://github.com/Paulo-S-Nascimento/news-api.git
 
-## Abra a pasta
+2. **Abra a pasta do projeto**:
 
-2. **Instale as dependências**:
+3. **Instale as dependências**:
  ```bash
 npm install
 
-3. **Compile o projeto**:
+4. **Compile o projeto**:
  ```bash
 npm run build
 
-4.  **inicie o servidor**:
+5.  **inicie o servidor**:
  ```bash
 npm start
 
