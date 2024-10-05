@@ -49,7 +49,7 @@ Esta é uma API para gerenciamento de notícias, permitindo listar, detalhar, cr
 - npm start
   
 
-**O servidor estará disponível em http://localhost:3000.**
+**O servidor estará disponível em http://localhost:5432/api/v1/news**
 
 
 
